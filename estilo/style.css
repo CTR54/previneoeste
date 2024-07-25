@@ -13,24 +13,52 @@ header{
     background-color: #101010;
     margin-bottom: 10px;
 }
+
 main{
-    width: 80vw;
+    width: 90vw;
     margin: auto;
-    padding: 20px 20px;
+    border-radius: 20px;
     background-color: #ffffff;
+  
+}
+main h2, h1, p, svg{
+    margin: 20px;
+   
 }
 
+
+div img{
+    width: 100%;
+    
+}
 article{
-    display: flex;
+    padding: 20px 5px 0px;
+    
     
 }
 article img{
     border-radius: 100%;
 }
 
-footer{
+button{
     padding: 10px;
+    border-radius: 10px;
+    background-color: #ED1212;
+    
+}
+.entreemcontato{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+footer{
+    height: 10px;
+    padding: 20px;
+    font-size: 0.5em;
     text-align: center;
     background-color: #101010;
     color: #ffffff;
+}
+footer p{
+    margin: -1px;
 }
