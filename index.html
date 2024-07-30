@@ -15,7 +15,14 @@
     <main>
         <h2>Proteção contra</h2>
         <div class="imginicial">
-            <img src="imagens/bombeiros-m.png" alt="bombeiros">
+            <picture>
+                <source media="(max-width: 1050px)" srcset="imagens/bombeiros-m.png">
+                <img src="imagens/bombeiros.png" alt="bombeiros">
+            </picture>
+
+            
+
+
             <h1>
                 Nossos serviços incluem
             </h1>
@@ -43,7 +50,7 @@
 
         <section>
             <div class="conteiner-serviço">  
-                <div class="serviçoprestado">
+                <div class="serviçoprestado" id="correçãodelayout">
                     <img src="imagens/alarmedefogo-p.png" alt="sprinkler">
                     <p>
                         cirene de incêndio
